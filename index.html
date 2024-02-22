@@ -9,16 +9,7 @@
 </head>
 
 <body>
-
     <canvas id="Canvas"></canvas>
-
-    <script src="script.js"></script>
-
-
-
-
-
-
 
     <div class="outer">
         <div class="frame"></div>
@@ -27,11 +18,11 @@
     </div>
     </div>
     </div>
-    <img src="images/82080_normal.png" style="z-index: 1;width: 10vh;position: absolute;top: 3vh;">
+    <img src="images/82080_normal.png" style="z-index: 1;width: 10vh;position: absolute;top: 40vh;">
     <div style="position: absolute; width: 13em;height: 13em;bottom: 0vh;left: 4vh;">
         <img style="transform: rotate(146deg);;z-index: 2;position: absolute;bottom: 12vh; width: 75%; "
             src="https://i.postimg.cc/Qxtn5scq/police-car-1.png">
-            <div class="fire" style="right: 0;z-index: 2;
+        <div class="fire" style="right: 0;z-index: 2;
     top: 4%;">
             <div class="fire-left">
                 <div class="main-fire"></div>
@@ -93,27 +84,27 @@
 
     <h1>Bon anniversaire</h1>
 
-    <div class="ballon" style="animation : elevation  3s infinite; left: 0;">
+    <div class="ballon" id="ballonOrange" style="animation : elevation  3s forwards; left: 0;">
         <div class="ballonForm"></div>
         <div class="queueBallon"></div>
     </div>
-    <div class="ballon" style="animation : elevation  5.5s infinite; right: 70vh">
+    <div class="ballon" id="ballonJaune" style="animation : elevation  5.5s forwards; right: 30%">
         <div class="ballonForm" style=" background: #dbb137;"></div>
         <div class="queueBallon" style=" border-bottom: 15px solid #dbb137;"></div>
     </div>
-    <div class="ballon" style="animation : elevation  2s infinite; left:10vw">
+    <div class="ballon" id="ballonBleu" style="animation : elevation  2s forwards; left:10vw">
         <div class="ballonForm" style=" background: #2da89f;"></div>
         <div class="queueBallon" style=" border-bottom: 15px solid #2da89f;"></div>
     </div>
-    <div class="ballon" style="animation : elevation  4s infinite ;right:10vw">
+    <div class="ballon" id="ballonRose" style="animation : elevation  4s forwards ;right:3vw">
         <div class="ballonForm" style=" background: #a6115c;"></div>
         <div class="queueBallon" style=" border-bottom: 15px solid #a6115c;"></div>
     </div>
-    <div class="ballon" style="animation : elevation  3.6s infinite ">
+    <div class="ballon" id="ballonVert" style="animation : elevation  3.6s forwards ">
         <div class="ballonForm" style=" background: #a6cf43;"></div>
         <div class="queueBallon" style=" border-bottom: 15px solid #a6cf43;"></div>
     </div>
-    <div class="ballon" style="animation : elevation  5s infinite ;right:5vh">
+    <div class="ballon" style="animation : elevation  5s forwards ;right:5vh">
         <div class="ballonForm" style=" background: #af3ce4;"></div>
         <div class="queueBallon" style=" border-bottom: 15px solid #af3ce4;"></div>
     </div>
@@ -123,7 +114,7 @@
         <path d="M96.506 264.517H157.196V398.542H96.506V264.517Z" fill="#EFA650"/>
         <path fill-rule="evenodd" clip-rule="evenodd" d="M205.099 55.2996C205.106 54.933 205.11 54.5655 205.11 54.1972C205.11 24.2649 180.845 0 150.913 0C128.435 0 109.154 13.6832 100.944 33.1743C62.5426 36.7463 32.482 69.0596 32.482 108.394C32.482 114.987 33.3265 121.382 34.9132 127.478C13.665 144.041 0 169.878 0 198.906C0 248.894 40.5232 289.417 90.5111 289.417C105.22 289.417 119.109 285.908 131.387 279.683C143.665 285.908 157.555 289.417 172.263 289.417C222.251 289.417 262.774 248.894 262.774 198.906C262.774 178.575 256.071 159.81 244.754 144.7C246.743 137.932 247.811 130.769 247.811 123.357C247.811 93.4011 230.375 67.5171 205.099 55.2996Z" fill="#08CF82"/>
         </svg> -->
-
+        <script src="script.js"></script>
 </body>
 
 </html>

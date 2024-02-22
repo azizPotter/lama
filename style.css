@@ -249,7 +249,6 @@ body {
     align-items: center;
     flex-direction: column;
     position: absolute;
-    /* animation : elevation  3s infinite reverse */
 }
 
 @keyframes elevation {
@@ -257,10 +256,43 @@ body {
         bottom: 0vh; /* Commence à gauche */
     }
     100% {
-        bottom: 100vh; /* Retourne à la position de départ */
+        bottom: 86vh; /* Retourne à la position de départ */
     }
+    
 }
 
+@keyframes flotter {
+
+  0%{
+    transform: rotate(0deg);
+  }    
+  33%{
+    transform: rotate(10deg);
+  }
+  66%{
+    transform: rotate(-10deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+  
+}
+@keyframes flotter2 {
+
+  0%{
+    transform: rotate(0deg);
+  }    
+  33%{
+    transform: rotate(-10deg);
+  }
+  66%{
+    transform: rotate(10deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+  
+}
 
 .queueBallon {
     display: inline-block;
