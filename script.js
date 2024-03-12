@@ -111,8 +111,17 @@ function Run() {
 	lastRun = performance.now();
 
   //ctx.clearRect(0, 0, cwidth, cheight);
-	ctx.fillStyle = "rgb(17, 22, 31)";
-	ctx.fillRect(0, 0, cwidth, cheight);
+	//ctx.fillStyle = "rgb(17, 22, 31)";
+ // Création du dégradé
+ var gradient = ctx.createLinearGradient(0, 0, 0, cheight);
+ gradient.addColorStop(0, "rgb(51, 0, 102)"); // Violet foncé
+ gradient.addColorStop(0.5, "rgb(102, 0, 102)"); // Rose foncé
+ gradient.addColorStop(1, "rgb(153, 51, 0)");
+ 
+
+// Application du dégradé en tant que fond
+ctx.fillStyle = gradient;
+ctx.fillRect(0, 0, cwidth, cheight);
 
   if ((shells.length < 10) && (Math.random() > 0.96)) { newShell(); }
 
