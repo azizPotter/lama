@@ -1,8 +1,18 @@
+var ballonPurple= document.getElementById('ballonPurple');
+
+ballonPurple.addEventListener('animationend', function(event) {
+  if (event.animationName === 'elevation') {
+    ballonPurple.style.bottom='82vh';
+    ballonPurple.style.animation = 'flotter 5s infinite';
+  }
+});
+
+
 var ballonOrange = document.getElementById('ballonOrange');
 
 ballonOrange.addEventListener('animationend', function(event) {
   if (event.animationName === 'elevation') {
-    ballonOrange.style.bottom='80vh';
+    ballonOrange.style.bottom='82vh';
     ballonOrange.style.animation = 'flotter 5s infinite';
   }
 });
@@ -11,7 +21,7 @@ var ballonJaune = document.getElementById('ballonJaune');
 
 ballonJaune.addEventListener('animationend', function(event) {
   if (event.animationName === 'elevation') {
-    ballonJaune.style.bottom='80vh';
+    ballonJaune.style.bottom='82vh';
     ballonJaune.style.animation = 'flotter2 5s infinite';
   }
 });
@@ -20,7 +30,7 @@ var ballonBleu = document.getElementById('ballonBleu');
 
 ballonBleu.addEventListener('animationend', function(event) {
   if (event.animationName === 'elevation') {
-    ballonBleu.style.bottom='80vh';
+    ballonBleu.style.bottom='82vh';
     ballonBleu.style.animation = 'flotter 5s infinite';
   }
 });
@@ -30,7 +40,7 @@ var ballonRose = document.getElementById('ballonRose');
 
 ballonRose.addEventListener('animationend', function(event) {
   if (event.animationName === 'elevation') {
-    ballonRose.style.bottom='80vh';
+    ballonRose.style.bottom='82vh';
     ballonRose.style.animation = 'flotter 5s infinite';
   }
 });
@@ -39,7 +49,7 @@ var ballonVert = document.getElementById('ballonVert');
 
 ballonVert.addEventListener('animationend', function(event) {
   if (event.animationName === 'elevation') {
-    ballonVert.style.bottom='80vh';
+    ballonVert.style.bottom='82vh';
     ballonVert.style.animation = 'flotter2 5s infinite';
   }
 });

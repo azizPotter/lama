@@ -1,4 +1,6 @@
 
+
+
 h1 {
     z-index: 3;
     top:30vh;
@@ -256,7 +258,7 @@ body {
         bottom: 0vh; /* Commence à gauche */
     }
     100% {
-        bottom: 80vh; /* Retourne à la position de départ */
+        bottom: 82vh; /* Retourne à la position de départ */
     }
     
 }
@@ -267,10 +269,10 @@ body {
     transform: rotate(0deg);
   }    
   33%{
-    transform: rotate(10deg);
+    transform: rotate(13deg);
   }
   66%{
-    transform: rotate(-10deg);
+    transform: rotate(-13deg);
   }
   100%{
     transform: rotate(0deg);
