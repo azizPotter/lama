@@ -256,7 +256,7 @@ body {
         bottom: 0vh; /* Commence à gauche */
     }
     100% {
-        bottom: 86vh; /* Retourne à la position de départ */
+        bottom: 80vh; /* Retourne à la position de départ */
     }
     
 }
