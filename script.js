@@ -1,4 +1,6 @@
-screen.lockOrientation("landscape");
+locOrientation = screen.lockOrientation || screen.mozLockOrientation || screen.msLockOrientation || screen.orientation.lock;
+locOrientation('landscape');
+
 
 var ballonPurple= document.getElementById('ballonPurple');
 
