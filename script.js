@@ -1,3 +1,5 @@
+screen.lockOrientation("landscape");
+
 var ballonPurple= document.getElementById('ballonPurple');
 
 ballonPurple.addEventListener('animationend', function(event) {
