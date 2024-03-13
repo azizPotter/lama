@@ -1,21 +1,3 @@
-function lockOrientation() {
-  if (window.screen.orientation && window.screen.orientation.lock) {
-      window.screen.orientation.lock('portrait');
-  } else if (window.screen.lockOrientation) {
-      window.screen.lockOrientation('portrait');
-  }
-}
-
-// Appel de la fonction pour bloquer l'orientation au chargement de la page
-lockOrientation();
-
-// Écouter l'événement de changement d'orientation et le gérer
-window.addEventListener('orientationchange', function () {
-  lockOrientation();
-});
-
-
-
 
 var ballonPurple= document.getElementById('ballonPurple');
 
